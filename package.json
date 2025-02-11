@@ -1,5 +1,5 @@
 {
-  "name": "@zzz1220/juuust-react-icon",
+  "name": "zzz1220-juuust-react-icon",
   "version": "0.2.24",
   "description": "Icon automation workflow with Figma",
   "main": "dist/juuust-react-icon.cjs.js",
@@ -8,6 +8,9 @@
   "files": [
     "dist"
   ],
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
+  },
   "repository": "https://github.com/zzz1220/juuust-react-icon.git",
   "author": "zzz1220",
   "keywords": [
