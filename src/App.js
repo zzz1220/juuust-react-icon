@@ -26,7 +26,7 @@ class List extends React.Component {
                 const Icon = icons[key]
                 return <li key={index}>
                   <IconWrapper>
-                    <Icon/>
+                    <Icon />
                     <span onDoubleClick={() => handleCopyIcon(key)}>{key}</span>
                   </IconWrapper>
                 </li>
