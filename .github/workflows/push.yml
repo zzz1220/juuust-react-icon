@@ -34,6 +34,8 @@ jobs:
         FIGMA_TOKEN: ${{ secrets.FIGMA_TOKEN }}
       with:
         args: "format=svg outputDir=./src/"
+        FIGMA_FILE_URL: ${{ secrets.FIGMA_FILE_URL }}
+        FIGMA_TOKEN: ${{ secrets.FIGMA_TOKEN }}
         
     - run: yarn generate
     - run: yarn build:bundle
