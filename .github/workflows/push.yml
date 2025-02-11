@@ -34,7 +34,7 @@ jobs:
         FIGMA_TOKEN: ${{ secrets.FIGMA_TOKEN }}
       with:
         args: "format=svg outputDir=./src/"
-    - run: chmod -R +w src/svg/
+    - run: sudo chmod -R +w src/svg/
     - run: yarn fetch
       env:
         NODE_AUTH_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}
