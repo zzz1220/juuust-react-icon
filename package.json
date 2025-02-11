@@ -1,6 +1,6 @@
 {
   "name": "zzz1220-juuust-react-icon",
-  "version": "0.2.26",
+  "version": "0.2.27",
   "description": "Icon automation workflow with Figma",
   "main": "dist/juuust-react-icon.cjs.js",
   "module": "dist/juuust-react-icon.esm.js",
